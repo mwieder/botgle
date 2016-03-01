@@ -9,6 +9,13 @@ class Manager
   GAME_HOURS = [3, 9, 15, 21]
   
   FLAIR = [
+    #Twitter::Unicode::U1F385, # santa
+    #Twitter::Unicode::U1F381, # gift
+    #Twitter::Unicode::U2744, # snowflake
+    #Twitter::Unicode::U1F384, # xmas tree
+    #Twitter::Unicode::U2603, # snowman
+    #Twitter::Unicode::U26C4 # snowman 2
+    
     Twitter::Unicode::U1F3C6,
     Twitter::Unicode::U1F4AF,
     Twitter::Unicode::U1F386,
@@ -121,6 +128,10 @@ class Manager
       @next_game_at = next_game_should_be_at
       @heads_up_issued = false
       @one_minute_warning_issued = false
+
+
+
+
     end
 
     begin
